@@ -1,0 +1,11 @@
+GitHub greeny  - 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
+
+komandy v putty
+ls - spisok failov v kataloge
+cd papka - izmenit papku nahozhdenija
+"tab" - dopisyvaet slova
+git pull - obnovlenie 
+git status - smotrit sostajanie
+git add (git add --all) - git add . - vvesti
+git commit -m "kommentaar" /muudatuste talletamine nimekirjas
+git push 
