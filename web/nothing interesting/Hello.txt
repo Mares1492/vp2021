@@ -1,0 +1,17 @@
+https://Mares1492@github.com/Mares1492/vp2021.git
+komandy v putty
+ls - spisok failov v kataloge
+cd papka - izmenit papku nahozhdenija
+"tab" - dopisyvaet slova
+git pull - obnovlenie 
+git status - smotrit sostajanie
+git add (git add --all) - git add . - vvesti
+git commit -m "kommentaar" /muudatuste talletamine nimekirjas
+git push 
+
+
+
+
+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
+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
+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
