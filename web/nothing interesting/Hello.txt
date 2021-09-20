@@ -9,9 +9,3 @@ git add (git add --all) - git add . - vvesti
 git commit -m "kommentaar" /muudatuste talletamine nimekirjas
 git push 
 
-
-
-
-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
-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
-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

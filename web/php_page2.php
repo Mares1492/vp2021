@@ -60,12 +60,18 @@
 		<option value="7">tlu_terra_600x400_3.jpg</option> 
 	</select>  */
 	if(isset($_POST["submit_photo_select"])){
-		$photo_html= '<img src="' .$photo_dir .$all_photos[$photo_num] .'"alt="Tallinna Ülikool">';		
+		$photo_html= '<img src="' .$photo_dir .$all_photos[$_POST["photo_select"]] .'"alt="Tallinna Ülikool">';
+		$photo_html_extra = "<li>".$all_photos[$_POST["photo_select"]] ."</li> \n";
+	}else{
+		$photo_html= '<img src="' .$photo_dir .$all_photos[$photo_num] .'"alt="Tallinna Ülikool">';
 	}
 	$photo_select_html = '<select name="photo_select">'."\n";
 	for($i = 0; $i < $file_count; $i++){
-		if ($i == $photo_num) {
-			$photo_select_html .= '<option value="' .$photo_num .'">' .$all_photos[$photo_num] ."</option> \n";
+		if ($i == $photo_num ) {
+			$photo_select_html .= '<option value="' .$i .'"selected>' .$all_photos[$i] ."</option> \n";
+			if (isset($_POST["submit_photo_select"])){
+				$photo_select_html .= '<option value="' .$i .'"selected>' .$all_photos[$_POST["photo_select"]] ."</option> \n";
+			}
 		}else{
 			$photo_select_html .= '<option value="' .$i .'">' .$all_photos[$i] ."</option> \n";
 		}
