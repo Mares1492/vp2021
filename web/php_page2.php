@@ -36,7 +36,7 @@
 	$photo_html = '<img src="' .$photo_dir .$all_photos[$photo_num] .'"alt="Tallinna Ülikool">';
 	$photo_list_html = "\n <ul> \n";
 	
-	//Dunno what am I doing...
+	echo "Dunno what am I doing...";
 	
 	
 	//for($i = algväärtus; $i > 0; $i++) 
